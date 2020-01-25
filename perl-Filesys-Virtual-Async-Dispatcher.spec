@@ -4,7 +4,6 @@
 
 %define	pdir	Filesys
 %define	pnam	Virtual-Async-Dispatcher
-%include	/usr/lib/rpm/macros.perl
 Summary:	perl(Filesys::Virtual::Async::Dispatcher)
 Name:		perl-Filesys-Virtual-Async-Dispatcher
 Version:	0.01
