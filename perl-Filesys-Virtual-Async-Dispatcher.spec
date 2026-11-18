@@ -6,13 +6,13 @@
 %define	pnam	Virtual-Async-Dispatcher
 Summary:	perl(Filesys::Virtual::Async::Dispatcher)
 Name:		perl-Filesys-Virtual-Async-Dispatcher
-Version:	0.01
+Version:	0.02
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Filesys/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	de5133e55de1250f1e4a0d1d1bb47112
+Source0:	https://www.cpan.org/modules/by-module/Filesys/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	21bdb09426d7d089b4ebb3f78c3ca079
 URL:		http://search.cpan.org/dist/Filesys-Virtual-Async-Dispatcher/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -62,7 +62,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc Changes LICENSE README
 %{perl_vendorlib}/Filesys/Virtual/Async/*.pm
 #%%{perl_vendorlib}/Filesys/Virtual/Async/Dispatcher
 %{_mandir}/man3/*
